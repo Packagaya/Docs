@@ -9,9 +9,9 @@ That is easy to explain:
 1. Packagaya could read the AST (abstract syntax tree) from the source code, gather all used dependencies and check if they are defined in the package configuration file.
 2. Packagaya could read the AST and check if the imported packages in the TypeScript configuration file are up to date.
 
-::: tip
+<!-- ::: tip
 If you do not have already initialized your repository, then now is a good time to [initialize it](./getting-started.md).
-:::
+::: -->
 
 ## Showing the issues
 

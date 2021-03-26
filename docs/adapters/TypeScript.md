@@ -18,22 +18,30 @@ yarn add -D @packagaya/typescript-adapter
 
 ## Using the adapter
 
-Define the adapter as dependency in your `.packagaya.json` file.
+Define the adapter as dependency in your `packagaya.json` file.
 
 ```json
 {
-    "adapters": [
-        "@packagaya/typescript-adapter"
-    ]
+    "adapters": ["@packagaya/typescript-adapter"]
 }
 ```
 
+## Templates
+
+| Name                                    | Status      |
+| :-------------------------------------- | :---------- |
+| [ts:create-package](#ts-create-package) | implemented |
+
+### ts:create-package
+
+Helps you with creating new Node.JS packages with a SPDX compliant license.
+
 ## Feature flags
 
-|              Name               | Status  | Fixable |
-| :-----------------------------: | :-----: | :-----: |
-|  [sync-ts-deps](#sync-ts-deps)  | planned |   Yes   |
-| [sync-ts-paths](#sync-ts-paths) | planned |   Yes   |
+| Name                            | Status      | Fixable |
+| :------------------------------ | :---------- | :------ |
+| [sync-ts-deps](#sync-ts-deps)   | implemented | Yes     |
+| [sync-ts-paths](#sync-ts-paths) | implemented | Yes     |
 
 ### sync-ts-deps
 

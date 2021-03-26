@@ -16,12 +16,10 @@ Install Packagaya with yarn:
 yarn global add @packagaya/cli
 ```
 
-## Using NPX
+## Using in a NodeJS based project
 
-`npx` is another option to always run the latest available packagaya version.
-
-If you want to use it you have to prefix the `packagaya` command with `npx`:
+You can also install the CLI in your own project with the following command:
 
 ```
-npx packagaya <command>
+yarn add -D @packagaya/cli
 ```

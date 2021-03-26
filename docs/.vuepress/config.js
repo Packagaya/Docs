@@ -1,34 +1,32 @@
 module.exports = {
-    title: 'Packagaya',
-    description: 'The package manager',
+    title: "Packagaya",
+    description: "The package manager",
     themeConfig: {
         sidebar: [
-            '/',
+            "/",
             {
-                title: 'Packages & Types',
+                title: "Packages & Types",
                 sidebarDepth: 1,
                 children: [
-                    '/packages and types/package-types',
-                    '/packages and types/adapters',
-                ]
+                    "/packages and types/package-types",
+                    "/packages and types/adapters",
+                ],
             },
             {
-                title: 'Guide',
+                title: "Guide",
                 sidebarDepth: 1,
                 children: [
-                    '/guide/installation',
-                    '/guide/getting-started',
-                    '/guide/synchronizing-packages',
-                ]
+                    "/guide/installation",
+                    "/guide/getting-started",
+                    "/guide/synchronizing-packages",
+                ],
             },
             {
-                title: 'Adapters',
+                title: "Adapters",
                 sidebarDepth: 1,
-                children: [
-                    '/adapters/TypeScript',
-                ]
+                children: ["/adapters/TypeScript", "/adapters/VSCode"],
             },
-            '/commands',
-        ]
+            "/commands",
+        ],
     },
-}
+};

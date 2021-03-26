@@ -6,12 +6,14 @@ Adapters are plugins for Packagaya which handle a specific type of source code f
 
 | Language                             | Status  |
 | :----------------------------------- | :------ |
-| [TypeScript](../adapters/TypeScript) | planned |
+| [TypeScript](../adapters/TypeScript) | released |
+| [Visual Studio Code](../adapters/VSCode) | released |
 
 ## Community adapters
 
 | Language | Status |
 | :------- | :----- |
+
 
 ### Using adapters
 
@@ -19,9 +21,7 @@ You need to configure the adapters in your `.packagaya.json`:
 
 ```json
 {
-    "adapters": [
-        "@packagaya/example-adapter"
-    ]
+    "adapters": ["@packagaya/example-adapter", "my-awesome-adapter"]
 }
 ```
 
